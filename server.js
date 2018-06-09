@@ -71,7 +71,7 @@ app.post('/createUser', (req, res) => {
         username: data.Username,
         password: data.Password,
         name: data.Name,
-        email: data.Email,
+        description: data.Description,
         image: 'xxx.png'
     }];
     users.push(usersTmp[0])
