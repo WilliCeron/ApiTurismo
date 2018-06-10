@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // ***************************************************************
 
 let users = [
-    {id: 0, username: 'admin', password: '123456', name: 'Willian Ceron', email: 'williamceron62@gmail.com', image: 'xxx.png'}
+    {id: 0, username: 'admin', password: '123', name: 'Willian Ceron', email: 'williamceron62@gmail.com', image: 'xxx.png'}
 ];
 
 let sites = [
